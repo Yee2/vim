@@ -6,3 +6,8 @@
 nvim 默认配置文件路径是 `~/.config/nvim/init.vim`
 
 - [安装补全框架Coc](https://github.com/neoclide/coc.nvim/wiki/Install-coc.nvim)
+
+### 以及一堆依赖：
+- nodejs
+- yarn
+- `npm install -g neovim`
