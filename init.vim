@@ -24,15 +24,7 @@ Plug 'scrooloose/nerdtree'  " 目录插件
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'Raimondi/delimitMate' " 自动补全括号插件
 Plug 'dhruvasagar/vim-table-mode' " 自动补全表格 markdown
-Plug 'keith/swift.vim' " swift 插件
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
-let g:deoplete#enable_at_startup = 1
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 call plug#end()
 filetype plugin on
 au FileType go nmap <leader>r <Plug>(go-run)
@@ -51,5 +43,6 @@ let g:PaperColor_Theme_Options = {
 
 set background=dark
 set laststatus=2
+set completeopt-=preview " 关闭预览窗口
 let g:go_version_warning = 0
 colorscheme PaperColor  " 设置颜色方案
