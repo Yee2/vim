@@ -16,3 +16,4 @@ set cursorline      " 高亮当前行
 set relativenumber  " 相对行号
 set laststatus=2
 filetype plugin indent on " 文件类型自动检测
+noremap q <Nop>
