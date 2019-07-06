@@ -1,5 +1,8 @@
 # vim
-
+### 服务器版
+```sh
+wget -O ~/.vimrc https://github.com/Yee2/vim/blob/master/VPS.vim
+```
 - [nvim 安装配置](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 - [安装vim-plug](https://github.com/junegunn/vim-plug/wiki/tutorial)
 
