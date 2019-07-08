@@ -18,3 +18,6 @@ set laststatus=2
 filetype plugin indent on " 文件类型自动检测
 noremap q <Nop>
 hi CursorLine   cterm=NONE ctermbg=darkgray
+set t_Co=256   " This is may or may not needed.
+set background=dark
+colorscheme PaperColor
