@@ -1,7 +1,7 @@
 # vim
 ### 服务器版
 ```sh
-wget -O ~/.vimrc https://raw.githubusercontent.com/Yee2/vim/master/VPS.vim
+mkdir -p ~/.vim/colors/ && wget -O ~/.vim/colors/PaperColor.vim https://raw.githubusercontent.com/NLKNguyen/papercolor-theme/master/colors/PaperColor.vim && wget -O ~/.vimrc https://raw.githubusercontent.com/Yee2/vim/master/VPS.vim
 ```
 - [nvim 安装配置](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 - [安装vim-plug](https://github.com/junegunn/vim-plug/wiki/tutorial)
